@@ -1,5 +1,5 @@
 class schueler 
-{ constructor (nachname, klassenstufe, abschlussnote){ 
+{ constructor (nachname, klasse, note){ 
 this.nachname = nachname; 
 this.klasse = klasse; 
 this.note = note; };
