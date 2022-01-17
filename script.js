@@ -27,4 +27,5 @@ let schuler3 = new Schueler("Jimmy", "Moore", "12D", 1.4);
 
 // ## Aufgabenstellung - Teil 3
 // Füge die Schüler nun einem Array hinzu und gib das ganze Array auf der Konsole aus.
-console.log("Schuller 1 :", schuler1, "Schuller 2 :", schuler2, "Schuller 3 :", schuler3);
+const schuler = [schuler1, schuler2, schuler3]
+console.log(schuler);
