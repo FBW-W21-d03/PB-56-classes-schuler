@@ -1,8 +1,8 @@
 class Klasse {
   constructor(name, klassenstufe, abschlussnote) {
-    this.mitarbeiterName = name;
-    this.mitarbeiterId = klassenstufe;
-    this.vorgesetztenId = abschlussnote;
+    this.name = name;
+    this.klassenstufe = klassenstufe;
+    this.abschlussnote = abschlussnote;
   }
 }
 
