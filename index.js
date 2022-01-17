@@ -1,8 +1,8 @@
 class Schueler {
   constructor(vorName, klassenstufe, abschlussnote) {
-    this.ersteName = vorName;
-    this.klassnevue = klassenstufe;
-    this.zertifkat = abschlussnote;
+    this.vorName = vorName;
+    this.klassenstufe = klassenstufe;
+    this.abschlussnote = abschlussnote;
   }
 }
 
