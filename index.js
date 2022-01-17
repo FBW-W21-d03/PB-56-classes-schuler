@@ -1,18 +1,19 @@
 // TEIL-1
-class Schuler {
-    constructor(fullname,klassenStufe,abschlußNote) {
-        this.schuler_fullname =fullname ;
-        this.schuler_klassenStufe =klassenStufe ;
-        this.schuler_abschlußNote =abschlußNote ;
+class Schueler {
+    constructor(fullname,klassenstufe,abschlußnote) {
+        this.fullname =fullname;
+        this.klassenstufe =klassenstufe;
+        this.abschlußnote =abschlußnote;
     }
 }
 
 // TEIL-2
-let schuler_1 = new Schuler("Nataly Miller", "10A", 2.8);
-let schuler_2 = new Schuler("Penny Blaese", "9B", 3.1);
-let schuler_3 = new Schuler("Jimmy Moore", "12D", 1.4);
+let schuler_2 = new Schueler("Penny Blaese", "9B", 3.1);
+let schuler_3 = new Schueler("Jimmy Moore", "12D", 1.4);
+let schuler_1 = new Schueler("Nataly Miller", "10A", 2.8);
 
 // TEIL-3
-console.log(schuler_1);
-console.log(schuler_2);
-console.log(schuler_3);
+const alleSchueler =[];
+let schueler = alleSchueler.push(schuler_1, schuler_2, schuler_3);
+
+console.log(alleSchueler);
